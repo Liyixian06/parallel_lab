@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1678509015 source:c:\users\13810\desktop\file\parallel programming\sum_n\common.cpp
+	<iostream>
+	<math.h>
+	<windows.h>
+
