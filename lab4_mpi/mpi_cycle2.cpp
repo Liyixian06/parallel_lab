@@ -40,7 +40,11 @@ int main(){
 	}
 	else MPI_Recv(&m[0][0], N*N, MPI_FLOAT, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 
+<<<<<<< HEAD
 	//循环划分
+=======
+	//块划分
+>>>>>>> 54bf9e549e9b6c2688346fa1cba71240a3b328a9
 	gettimeofday(&start,NULL);
     	for (int k = 0; k < N; k++) {
 		if (k % size == rank) {
